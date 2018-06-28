@@ -1,0 +1,26 @@
+{
+  "name": "@dwcore/eos",
+  "version": "0.1.1",
+  "description": "Retreive dwStream Callbacks, when a dwStream completes or fails.",
+  "browser": {
+    "fs": false
+  },
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "once": "^1.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
